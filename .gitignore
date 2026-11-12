@@ -1,4 +1,29 @@
+# Виртуальные окружения (venv, .venv и т.д.)
 .venv/
 venv/
+env/
+ENV/
+
+# Служебные файлы PyCharm / IDE
 .idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Локальные настройки и логи
+*.log
